@@ -1,0 +1,27 @@
+{
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "name": "js-game",
+  "version": "0.0.1",
+  "description": "js engine game",
+  "main": "dist/index.js",
+  "repository": "git@github.com:prxg22/js-game.git",
+  "author": "prxg22",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "parcel serve src/index.html"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3"
+  }
+}
